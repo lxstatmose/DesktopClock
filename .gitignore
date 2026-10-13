@@ -1,0 +1,31 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+
+# Секреты (Wi-Fi / прокси / ключи / топик ntfy)
+include/app_config_secrets.h
+server/hub.env
+
+# Логи и черновики
+*.log
+.readlog.py
+server/_patch.py
+server/_test_hub.py
+tools/socks5_test.py
+tools/socks5_cache_test.py
+
+# Серверный хаб: кэш
+server/__pycache__/
+server/out.txt
+
+# Локальные настройки агента
+.kilo/
+
+# OS / IDE
+.DS_Store
+Thumbs.db

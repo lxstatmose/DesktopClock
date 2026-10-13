@@ -79,7 +79,7 @@ src/
   net/                           # wi-fi, NTP, SOCKS5-клиент, сетевая задача
   services/                      # weather, metrics, notify
 server/clock-hub.py              # хаб метрик + Telegram-бот (stdlib Python)
-tools/                           # TTF Roboto, замер ширины текста, тесты SOCKS5
+tools/                           # TTF Roboto для шрифтов, замер ширины текста
 ```
 
 UI и LVGL живут на ядре 1, сеть и датчики — на ядре 0 (`net_task`), состояние
